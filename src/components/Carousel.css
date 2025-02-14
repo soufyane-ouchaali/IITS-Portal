@@ -1,0 +1,31 @@
+/* Carousel.css */
+.carousel {
+    margin-top: 0;
+    /* Remove the top margin */
+}
+
+.carousel-item img {
+    height: 500px;
+    /* Set a fixed height for the carousel images */
+    object-fit: cover;
+    /* Ensure images cover the area */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for captions */
+    border-radius: 10px;
+    /* Rounded corners for captions */
+    padding: 20px;
+    /* Add padding to captions */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for controls */
+    border-radius: 50%;
+    /* Round buttons */
+    padding: 10px;
+    /* Add padding to controls */
+}

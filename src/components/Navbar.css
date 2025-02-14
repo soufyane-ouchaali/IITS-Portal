@@ -1,0 +1,96 @@
+/* Navbar.css */
+.custom-navbar {
+    background-color: #2c3e50;
+    /* Dark blue background */
+    padding: 1rem 2rem;
+    /* Add padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Larger font size for the brand */
+    font-weight: bold;
+    /* Bold text */
+    color: #ecf0f1 !important;
+    /* Light text color */
+}
+
+.navbar-brand:hover {
+    color: #bdc3c7 !important;
+    /* Slightly lighter color on hover */
+}
+
+.nav-link {
+    color: #ecf0f1 !important;
+    /* Light text color */
+    font-size: 1.1rem;
+    /* Slightly larger font size */
+    margin: 0 0.5rem;
+    /* Add spacing between links */
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+    /* Blue color on hover */
+}
+
+.nav-link.active {
+    color: #3498db !important;
+    /* Blue color for active link */
+    font-weight: bold;
+    /* Bold text for active link */
+}
+
+.btn-custom {
+    background-color: #3498db;
+    /* Blue background for the button */
+    color: #ecf0f1;
+    /* Light text color */
+    border: none;
+    /* Remove default border */
+    padding: 0.5rem 1.5rem;
+    /* Add padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.btn-custom:hover {
+    background-color: #2980b9;
+    /* Darker blue on hover */
+}
+
+/* Navbar.css */
+.dropdown-menu {
+    background-color: #34495e;
+    /* Dark background for dropdown */
+    border: none;
+    /* Remove default border */
+}
+
+.dropdown-item {
+    color: #ecf0f1 !important;
+    /* Light text color */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.dropdown-item:hover {
+    background-color: #3498db;
+    /* Blue background on hover */
+    color: #ecf0f1 !important;
+    /* Light text color */
+}
+
+/* Navbar.css */
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* Ensure it stays on top of other content */
+}
